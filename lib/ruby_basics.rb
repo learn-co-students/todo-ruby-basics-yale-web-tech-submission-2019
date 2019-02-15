@@ -1,27 +1,29 @@
+
 def division(num1, num2)
- num1/num2
+  num1/num2
 end
 
 def assign_variable(value)
-  "Bob"=value
+  name = value
 end
 
-def argue (arguement)
- puts arguement
+def argue(argument)
+  argument
 end
 
-def greeting(greeting,name)
-  "#{greeting} #{name}"
+def greeting(greeting, name)
+  puts "#{greeting}, #{name}"
 end
 
 def return_a_value
-  puts "Nice"
+  "Nice"
 end
 
 def last_evaluated_value
-  puts "expert"
+  "beginner"
+  "expert"
 end
 
-def pizza_party(toppings = "Cheese")
- puts toppings
+def pizza_party(pie="cheese")
+  pie
 end
